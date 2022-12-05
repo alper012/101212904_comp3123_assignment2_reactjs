@@ -1,7 +1,7 @@
 import axios from "axios";
 import authHeader from "../common/auth-header";
 
-const URL = "http://localhost:8080/api/employees";
+const URL = "https://employee-vbackend.herokuapp.com/api/employees";
 
 class EmployeeDataService {
 
